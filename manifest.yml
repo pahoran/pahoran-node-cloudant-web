@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pahoran-node-cloudant-web
+  host: pahoran-node-cloudant-web
+  disk_quota: 1024M
+  services:
+  - pahoran-node-cloudant-web-cloudantNoSQLDB
